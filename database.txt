@@ -1,0 +1,12 @@
+create database command:
+CREATE DATABASE users;
+
+create table command:
+CREATE TABLE customers (
+    id int NOT NULL AUTO_INCREMENT,
+    username varchar(255) NOT NULL,
+    password varchar(255) NOT NULL,
+    user_type varchar(255) NOT NULL,
+    created varchar(255) NOT NULL,
+    PRIMARY KEY (id)
+);
